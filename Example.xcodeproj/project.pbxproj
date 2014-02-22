@@ -19,6 +19,8 @@
 		83D2612218A84098006598DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D2610A18A84098006598DE /* UIKit.framework */; };
 		83D2612A18A84098006598DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D2612818A84098006598DE /* InfoPlist.strings */; };
 		83D2612C18A84098006598DE /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D2612B18A84098006598DE /* ExampleTests.m */; };
+		83D2613718A847F5006598DE /* HWPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D2613618A847F5006598DE /* HWPlayViewController.m */; };
+		83D2615118A867A7006598DE /* HWListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D2615018A867A7006598DE /* HWListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		83D2612718A84098006598DE /* ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		83D2612918A84098006598DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83D2612B18A84098006598DE /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		83D2613518A847F5006598DE /* HWPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPlayViewController.h; sourceTree = "<group>"; };
+		83D2613618A847F5006598DE /* HWPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPlayViewController.m; sourceTree = "<group>"; };
+		83D2614F18A867A7006598DE /* HWListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWListViewController.h; sourceTree = "<group>"; };
+		83D2615018A867A7006598DE /* HWListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +113,14 @@
 		83D2610C18A84098006598DE /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				83D2611518A84098006598DE /* HWAppDelegate.h */,
 				83D2611618A84098006598DE /* HWAppDelegate.m */,
+				83D2611518A84098006598DE /* HWAppDelegate.h */,
+				83D2613518A847F5006598DE /* HWPlayViewController.h */,
+				83D2613618A847F5006598DE /* HWPlayViewController.m */,
 				83D2611818A84098006598DE /* Images.xcassets */,
 				83D2610D18A84098006598DE /* Supporting Files */,
+				83D2614F18A867A7006598DE /* HWListViewController.h */,
+				83D2615018A867A7006598DE /* HWListViewController.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -241,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D2611318A84098006598DE /* main.m in Sources */,
+				83D2613718A847F5006598DE /* HWPlayViewController.m in Sources */,
 				83D2611718A84098006598DE /* HWAppDelegate.m in Sources */,
+				83D2615118A867A7006598DE /* HWListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +456,7 @@
 				83D2613118A84098006598DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D2613218A84098006598DE /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +465,7 @@
 				83D2613418A84098006598DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
